@@ -1,0 +1,95 @@
+
+ul {
+    font-family: "Raleway";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    ;
+}
+
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    color: rgb(110, 110, 110);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(238, 238, 238);
+} 
+
+.active {
+    color: #000000;
+  }
+
+h1 {
+    font-family: "Raleway";
+
+}
+
+p {
+    font-family: "Raleway";
+    font-size: larger;
+}
+
+img {
+    max-width: 100%;
+}
+
+.leftedimage {
+    float: left;
+    margin-left:14.5%;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+    max-width:1160px; /* 2 */
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+    }
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+body {
+    font: 1.2em Helvetica, Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+  }
+  .wrapper {
+    max-width: 960px;
+    margin: 2em auto;
+  }
+
+  .col1,
+  .col2 {
+    background-color: #fff;
+  }
+
+  @media screen and (min-width: 600px) {
+    .col1 {
+      width: 31.24999999%;
+      float: left;
+    }
+
+    .col2 {
+      width: 64.58333331%;
+      float: right;
+    }
+  }
