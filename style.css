@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 ul {
-    font-family: "Raleway";
+    font-family: "Roboto", sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    ;
 }
 
 li {
-    float: left
+    float: left;
 }
 
 li a {
@@ -21,22 +21,20 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: rgb(238, 238, 238);
 } 
 
 .active {
     color: #000000;
-  }
+}
 
 h1 {
-    font-family: "Raleway";
-
+    font-family: "Roboto", sans-serif;
 }
 
 p {
-    font-family: "Raleway";
+    font-family: "Roboto", sans-serif;
     font-size: larger;
 }
 
@@ -53,12 +51,12 @@ img {
 }
 
 .wrapper {
-    margin-right: auto; /* 1 */
-    margin-left: auto; /* 1 */
-    max-width:1160px; /* 2 */
-    padding-right: 10px; /* 3 */
-    padding-left: 10px; /* 3 */
-    }
+    margin-right: auto;
+    margin-left: auto;
+    max-width:1160px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 .menu {
     float: left;
@@ -67,22 +65,23 @@ img {
 }
 
 body {
-    font: 1.2em Helvetica, Arial, sans-serif;
+    font: 1.2em "Roboto", sans-serif;
     margin: 20px;
     padding: 0;
     background-color: white;
-  }
-  .wrapper {
+}
+
+.wrapper {
     max-width: 960px;
     margin: 2em auto;
-  }
+}
 
-  .col1,
-  .col2 {
+.col1,
+.col2 {
     background-color: #fff;
-  }
+}
 
-  @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .col1 {
       width: 31.24999999%;
       float: left;
@@ -92,4 +91,4 @@ body {
       width: 64.58333331%;
       float: right;
     }
-  }
+}
