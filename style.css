@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
 
 ul {
-    font-family: "Roboto", sans-serif;
+    font-family: "Garamond", serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,11 +30,11 @@ li a:hover {
 }
 
 h1 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Garamond", serif;
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Garamond", serif;
     font-size: larger;
 }
 
@@ -65,7 +65,7 @@ img {
 }
 
 body {
-    font: 1.2em "Roboto", sans-serif;
+    font: 1.2em "Garamond", serif;
     margin: 20px;
     padding: 0;
     background-color: white;
